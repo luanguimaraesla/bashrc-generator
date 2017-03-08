@@ -19,6 +19,7 @@ fc-cache -vf ~/.fonts/
 #sudo mv 10-powerline-symbols.conf /etc/fonts/conf.d
 
 cat - >> ~/.bashrc << EOT
+
 powerline-daemon -q
 POWERLINE_BASH_CONTINUATION=1
 POWERLINE_BASH_SELECT=1
