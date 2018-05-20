@@ -10,5 +10,4 @@ POWERLINE_BASH_SELECT=1
 . /usr/lib/python3.6/site-packages/powerline/bindings/bash/powerline.sh
 EOT
 
-# Do it manually for Archlinux
-#. ./update_powerline_config.sh
+. ./update_powerline_config.sh
